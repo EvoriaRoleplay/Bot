@@ -13,7 +13,7 @@ bot.on('ready', () => {
     console.log("Bot Ready !");
 });
 
-bot.login('NDQ2Mzk3MTg4OTkwNDM1MzI4.Dd4isA.5kfggbC_3IABPDT2UlzqmSZICm8');
+bot.login(process.env.TOCKEN);
 
 bot.on('message', message => {
     if (message.content === "ping"){
